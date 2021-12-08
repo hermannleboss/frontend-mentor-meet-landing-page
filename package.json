@@ -4,7 +4,7 @@
   "description": "![Design preview for the Meet landing page coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hermannleboss/frontend-mentor-meet-landing-page/issues"
   },
-  "homepage": "https://github.com/hermannleboss/frontend-mentor-meet-landing-page#readme"
+  "homepage": "https://github.com/hermannleboss/frontend-mentor-meet-landing-page#readme",
+  "devDependencies": {
+    "vite": "^2.7.1"
+  }
 }
