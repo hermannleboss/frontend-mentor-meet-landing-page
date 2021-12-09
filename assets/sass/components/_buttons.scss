@@ -1,0 +1,16 @@
+.btn {
+  border-radius: 29px;
+  padding: 16px 29px;
+  background: $colour-primary;
+  color: $colour-white;
+  text-decoration: none;
+  em{
+    color: $colour-primary-variant;
+  }
+  &--secondary{
+    background: $colour-secondary;
+    em{
+      color: $colour-secondary-variant;
+    }
+  }
+}
