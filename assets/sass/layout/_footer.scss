@@ -1,0 +1,14 @@
+.footer{
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("./../desktop/image-footer.jpg");
+  background-color:  $colour-primary;
+  background-blend-mode: multiply;
+  align-items:center;
+  grid-column-gap: 150px;
+  color: $colour-white;
+  &__heading{
+    text-align: left;
+    color: $colour-white;
+  }
+}

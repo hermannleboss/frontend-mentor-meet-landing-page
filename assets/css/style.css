@@ -58,6 +58,9 @@ h2 {
   color: #D9B8FF;
 }
 
+.header {
+  grid-template-columns: auto 540px auto;
+}
 .header img {
   width: 100%;
 }
@@ -73,6 +76,23 @@ h2 {
   justify-content: center;
 }
 
+.footer {
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  background-image: url("./../desktop/image-footer.jpg");
+  background-color: #4D96A9;
+  background-blend-mode: multiply;
+  align-items: center;
+  grid-column-gap: 150px;
+  color: #FAFAFA;
+}
+.footer__heading {
+  text-align: left;
+  color: #FAFAFA;
+}
+
 .container {
   margin: 0px;
   padding: 116px 165px;
@@ -83,13 +103,12 @@ h2 {
 
 .grid {
   display: grid;
-  align-items: initial;
 }
 .grid--inline {
   display: inline-grid;
 }
 .grid--3 {
-  grid-template-columns: auto 540px auto;
+  grid-template-columns: auto auto auto;
   grid-column-gap: 50px;
 }
 

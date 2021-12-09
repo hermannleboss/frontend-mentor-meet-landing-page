@@ -1,11 +1,10 @@
 .grid{
   display: grid;
-  align-items:initial;
   &--inline{
     display: inline-grid;
   }
   &--3{
-    grid-template-columns: auto 540px auto;
+    grid-template-columns: auto auto auto;
     grid-column-gap: 50px;
   }
 }
