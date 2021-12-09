@@ -92,6 +92,11 @@ h2 {
   text-align: left;
   color: #FAFAFA;
 }
+.footer__text {
+  max-width: 358px;
+  font-style: normal;
+  font-size: 18px;
+}
 
 .container {
   margin: 0px;

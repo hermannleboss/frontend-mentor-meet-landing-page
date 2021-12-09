@@ -11,4 +11,9 @@
     text-align: left;
     color: $colour-white;
   }
+  &__text{
+    max-width: 358px;
+    font-style: normal;
+    font-size: 18px;;
+  }
 }
