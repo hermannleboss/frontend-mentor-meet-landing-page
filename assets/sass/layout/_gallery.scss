@@ -1,0 +1,30 @@
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding-top: 64px;
+
+  img{
+    max-width: 255px;
+    border-radius: 8px;
+  }
+}
+.footer{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./../desktop/image-footer.jpg");
+  background-color:  $colour-primary;
+  background-blend-mode: multiply;
+  align-items:center;
+  grid-column-gap: 150px;
+  color: $colour-white;
+  &__heading{
+    text-align: left;
+    color: $colour-white;
+  }
+  &__text{
+    max-width: 358px;
+    font-style: normal;
+    font-size: 18px;
+  }
+}
