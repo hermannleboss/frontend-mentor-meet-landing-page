@@ -3,11 +3,24 @@
     width: 100%;
   }
   &__item{
+    min-height:400px ;
     &--left{
 
     }
     &--right{
 
     }
+  }
+  &__heading{
+
+  }
+  &__text{
+    text-align: center;
+    margin: 34px 0px 32px 0px;
+  }
+  &__call-to-action{
+    display: flex;
+    justify-content: center;
+
   }
 }

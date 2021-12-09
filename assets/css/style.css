@@ -61,6 +61,18 @@ h2 {
 .header img {
   width: 100%;
 }
+.header__item {
+  min-height: 400px;
+}
+.header__text {
+  text-align: center;
+  margin: 34px 0px 32px 0px;
+}
+.header__call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   margin: 0px;
   padding: 116px 165px;
@@ -71,6 +83,7 @@ h2 {
 
 .grid {
   display: grid;
+  align-items: initial;
 }
 .grid--inline {
   display: inline-grid;
@@ -78,6 +91,14 @@ h2 {
 .grid--3 {
   grid-template-columns: auto 540px auto;
   grid-column-gap: 50px;
+}
+
+.mg-l-1 {
+  margin-left: 0.25rem;
+}
+
+.mg-r-1 {
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
