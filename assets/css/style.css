@@ -41,6 +41,15 @@ h2 {
   text-transform: uppercase;
 }
 
+.align-items {
+  align-items: center;
+}
+
+.justify-content--center {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn {
   border-radius: 29px;
   padding: 16px 29px;
@@ -105,6 +114,9 @@ h2 {
 .container--fluid {
   padding: 0px;
 }
+.container__small {
+  max-width: 540px;
+}
 
 .grid {
   display: grid;
@@ -115,6 +127,10 @@ h2 {
 .grid--3 {
   grid-template-columns: auto auto auto;
   grid-column-gap: 50px;
+}
+
+.presentation__heading {
+  margin: 0px 65px;
 }
 
 .mg-l-1 {
