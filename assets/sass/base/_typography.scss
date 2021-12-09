@@ -1,6 +1,6 @@
 body {
   font-family: Red Hat Display;
-  color: $colour-black;
+  color: $colour-gray;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -8,23 +8,29 @@ body {
 }
 
 h1 {
+  color: $colour-black;
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
   line-height: 64px;
+  text-align: center;
 }
 h2{
+  color: $colour-black;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
+  text-align: center;
 }
 
 .overline {
+  color: $colour-primary;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
   /* identical to box height, or 162% */
 
   letter-spacing: 4px;

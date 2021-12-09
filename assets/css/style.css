@@ -1,6 +1,10 @@
 body {
+  margin: 0px;
+}
+
+body {
   font-family: Red Hat Display;
-  color: #28283d;
+  color: #87879D;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -8,24 +12,30 @@ body {
 }
 
 h1 {
+  color: #28283d;
   font-style: normal;
   font-weight: 900;
   font-size: 64px;
   line-height: 64px;
+  text-align: center;
 }
 
 h2 {
+  color: #28283d;
   font-style: normal;
   font-weight: 900;
   font-size: 40px;
   line-height: 44px;
+  text-align: center;
 }
 
 .overline {
+  color: #4D96A9;
   font-style: normal;
   font-weight: 900;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
   /* identical to box height, or 162% */
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -46,6 +56,28 @@ h2 {
 }
 .btn--secondary em {
   color: #D9B8FF;
+}
+
+.header img {
+  width: 100%;
+}
+.container {
+  margin: 0px;
+  padding: 116px 165px;
+}
+.container--fluid {
+  padding: 0px;
+}
+
+.grid {
+  display: grid;
+}
+.grid--inline {
+  display: inline-grid;
+}
+.grid--3 {
+  grid-template-columns: auto 540px auto;
+  grid-column-gap: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

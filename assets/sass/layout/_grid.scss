@@ -1,0 +1,10 @@
+.grid{
+  display: grid;
+  &--inline{
+    display: inline-grid;
+  }
+  &--3{
+    grid-template-columns: auto 540px auto;
+    grid-column-gap: 50px;
+  }
+}
