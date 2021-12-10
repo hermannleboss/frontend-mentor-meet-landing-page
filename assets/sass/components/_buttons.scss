@@ -4,11 +4,17 @@
   background: $colour-primary;
   color: $colour-white;
   text-decoration: none;
+  &:hover{
+    background: #71C0D4;
+  }
   em{
     color: $colour-primary-variant;
   }
   &--secondary{
     background: $colour-secondary;
+    &:hover{
+      background: #B18BDD;
+    }
     em{
       color: $colour-secondary-variant;
     }

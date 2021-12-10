@@ -58,11 +58,17 @@ h2 {
   color: #FAFAFA;
   text-decoration: none;
 }
+.btn:hover {
+  background: #71C0D4;
+}
 .btn em {
   color: #8FE3F9;
 }
 .btn--secondary {
   background: #855FB1;
+}
+.btn--secondary:hover {
+  background: #B18BDD;
 }
 .btn--secondary em {
   color: #D9B8FF;
