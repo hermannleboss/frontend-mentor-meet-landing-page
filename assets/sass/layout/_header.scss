@@ -1,5 +1,7 @@
 .header{
-  grid-template-columns: auto 540px auto;
+  @media (min-width: 1024px) {
+    grid-template-columns: auto 540px auto;
+  }
   img{
     width: 100%;
   }

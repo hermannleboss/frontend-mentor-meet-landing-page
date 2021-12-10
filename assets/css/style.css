@@ -2,6 +2,223 @@ body {
   margin: 0px;
 }
 
+/*
+
+.sm {
+  @media (min-width: 640px) {
+    &--hidden {
+      @include hidden;
+    }
+  }
+  &--grid{
+    //@include grid;
+  }
+  &--block{
+    @include block;
+  }
+}
+
+.md {
+  @media (min-width: 768px) {
+
+    &--hidden {
+      @include hidden;
+    }
+    &--grid{
+      //@include grid;
+    }
+    &--block{
+      @include block;
+    }
+  }
+}
+
+.lg {
+  @media (min-width: 1024px) {
+
+    &--hidden {
+      @include hidden;
+    }
+    &--grid{
+      @include grid;
+    }
+    &--block{
+      @include block;
+    }
+  }
+}
+
+.xl {
+  @media (min-width: 1280px) {
+
+    &--hidden {
+      @include hidden;
+    }
+    &--grid{
+      @include grid;
+    }
+    &--block{
+      @include block;
+    }
+  }
+}
+
+.xl2 {
+  @media (min-width: 1536px) {
+
+    &--hidden {
+      @include hidden;
+    }
+    &--grid{
+      @include grid;
+    }
+    &--block{
+      @include block;
+    }
+  }
+}*/
+.hidden {
+  display: none;
+}
+@media (min-width: 640px) {
+  .hidden--sm {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .hidden--md {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .hidden--lg {
+    display: none;
+  }
+}
+@media (min-width: 1280px) {
+  .hidden--xl {
+    display: none;
+  }
+}
+@media (min-width: 1536px) {
+  .hidden--xl2 {
+    display: none;
+  }
+}
+
+.block {
+  display: block;
+}
+@media (min-width: 640px) {
+  .block--sm {
+    display: block;
+  }
+}
+@media (min-width: 768px) {
+  .block--md {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .block--lg {
+    display: block;
+  }
+}
+@media (min-width: 1280px) {
+  .block--xl {
+    display: block;
+  }
+}
+@media (min-width: 1536px) {
+  .block--xl2 {
+    display: block;
+  }
+}
+
+.grid {
+  display: grid;
+  display: grid;
+}
+.grid--1 {
+  grid-template-columns: auto;
+}
+.grid--2 {
+  grid-template-columns: auto auto;
+}
+.grid--3 {
+  grid-template-columns: auto auto auto;
+}
+@media (min-width: 640px) {
+  .grid--sm {
+    display: grid;
+  }
+  .grid--sm--1 {
+    grid-template-columns: auto;
+  }
+  .grid--sm--2 {
+    grid-template-columns: auto auto;
+  }
+  .grid--sm--3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 768px) {
+  .grid--md {
+    display: grid;
+  }
+  .grid--md--1 {
+    grid-template-columns: auto;
+  }
+  .grid--md--2 {
+    grid-template-columns: auto auto;
+  }
+  .grid--md--3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1024px) {
+  .grid--lg {
+    display: grid;
+  }
+  .grid--lg--1 {
+    grid-template-columns: auto;
+  }
+  .grid--lg--2 {
+    grid-template-columns: auto auto;
+  }
+  .grid--lg--3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1280px) {
+  .grid--xl {
+    display: grid;
+  }
+  .grid--xl--1 {
+    grid-template-columns: auto;
+  }
+  .grid--xl--2 {
+    grid-template-columns: auto auto;
+  }
+  .grid--xl--3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1536px) {
+  .grid--xl2 {
+    display: grid;
+  }
+  .grid--xl2--1 {
+    grid-template-columns: auto;
+  }
+  .grid--xl2--2 {
+    grid-template-columns: auto auto;
+  }
+  .grid--xl2--3 {
+    grid-template-columns: auto auto auto;
+  }
+}
+
 body {
   font-family: Red Hat Display;
   color: #87879D;
@@ -74,8 +291,10 @@ h2 {
   color: #D9B8FF;
 }
 
-.header {
-  grid-template-columns: auto 540px auto;
+@media (min-width: 1024px) {
+  .header {
+    grid-template-columns: auto 540px auto;
+  }
 }
 .header img {
   width: 100%;
@@ -112,21 +331,20 @@ h2 {
   padding-bottom: 61px;
 }
 
-.grid {
+/*.grid{
   display: grid;
-}
-.grid--inline {
-  display: inline-grid;
-}
-.grid--3 {
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 50px;
-}
-.grid--4 {
-  grid-template-columns: auto auto auto auto;
-  grid-column-gap: 30px;
-}
-
+  &--inline{
+    display: inline-grid;
+  }
+  &--3{
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+  }
+  &--4{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+  }
+}*/
 .presentation__heading {
   margin: 0px 65px;
 }

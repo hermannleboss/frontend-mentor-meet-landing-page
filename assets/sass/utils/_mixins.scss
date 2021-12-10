@@ -1,0 +1,50 @@
+@mixin hidden{
+  display: none;
+}
+@mixin grid{
+  display: grid;
+  &--1{
+    grid-template-columns: auto;
+  }
+  &--2{
+    grid-template-columns: auto auto;
+  }
+  &--3{
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@mixin block{
+  display: block;
+}
+
+@mixin display($value){
+
+  display: $value;
+  &--sm{
+    @media (min-width: 640px) {
+      display: $value;
+    }
+  }
+  &--md {
+    @media (min-width: 768px) {
+      display: $value;
+    }
+  }
+  &--lg {
+    @media (min-width: 1024px) {
+      display: $value;
+    }
+  }
+  &--xl {
+    @media (min-width: 1280px) {
+      display: $value;
+    }
+  }
+  &--xl2 {
+    @media (min-width: 1536px) {
+      display: $value;
+    }
+  }
+
+}
