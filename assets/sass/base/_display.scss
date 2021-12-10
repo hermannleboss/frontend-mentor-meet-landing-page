@@ -8,7 +8,6 @@
 
 
 .grid{
-  display: grid;
   //grid-column-gap: 50px;
   @include grid;
   &--sm{
@@ -37,4 +36,29 @@
     }
   }
 }
+.gap{
+  gap:0px;
+  &--0{
+    gap:0px;
+  }
+  &--4{
+    gap:1rem;
+  }
+  &--x{
+    column-gap: 0px;
+  }
+  &--y{
+    row-gap: 0px;
+  }
+}
+.justify-items{
+  &--center{
+    justify-items: center;
+  }
+}
+.justify-content{
+   &--center{
+     justify-content: center;
+   }
+ }
 

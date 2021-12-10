@@ -10,13 +10,13 @@
 
 @import "./components/buttons";
 
-@import "./layout/header";
-@import "./layout/nav";
 @import "./layout/container";
 @import "./layout/grid";
 @import "./layout/presentation";
 @import "./layout/gallery";
 @import "./layout/footer";
+@import "./layout/header";
+@import "./layout/nav";
 
 @import "./pages/home";
 
@@ -50,12 +50,22 @@
   align-items:center;
   grid-column-gap: 50px;
   color: $colour-white;
-  &__heading{
+  text-align: center;
+  @media (min-width: 1024px) {
     text-align: left;
+  }
+  &__heading{
+    margin: 0px;
+    @media (min-width: 1024px) {
+      text-align: left;
+    }
     color: $colour-white;
   }
   &__text{
-    max-width: 358px;
+    max-width: 573px;
+    @media (min-width: 1024px) {
+      max-width: 358px;
+    }
     font-style: normal;
     font-size: 18px;
   }
